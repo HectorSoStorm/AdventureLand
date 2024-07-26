@@ -1,0 +1,9 @@
+[19:35:54.844][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[19:35:54.846][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[19:35:54.847][INFO]: Successfully identified and loaded plugin mekanism:crt_plugin
+[19:35:56.094][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[19:35:56.102][INFO]: - 'aquaculture' at version '1.18.2-2.3.12'
+[19:35:56.102][INFO]: - 'crafttweaker' at version '9.1.211'
+[19:35:56.102][INFO]: - 'farmersdelight' at version '1.18.2-1.2.3'
+[19:35:56.102][INFO]: - 'mekanism' at version '10.2.5'
+[19:35:56.102][INFO]: - 'mysticalagriculture' at version '5.1.5'

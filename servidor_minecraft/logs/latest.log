@@ -1,0 +1,622 @@
+[26Jul2024 19:35:25.963] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.21, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[26Jul2024 19:35:25.967] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.3 by Microsoft
+[26Jul2024 19:35:26.128] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirector CoreMod initialized successfully!
+[26Jul2024 19:35:26.186] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/AdventureLand/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[26Jul2024 19:35:26.983] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/AdventureLand/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.21/fmlcore-1.18.2-40.2.21.jar is missing mods.toml file
+[26Jul2024 19:35:26.984] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/AdventureLand/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.21/javafmllanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[26Jul2024 19:35:26.985] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/AdventureLand/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.21/lowcodelanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[26Jul2024 19:35:26.987] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/AdventureLand/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.21/mclanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[26Jul2024 19:35:27.251] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[26Jul2024 19:35:32.771] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26Jul2024 19:35:33.309] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
+[26Jul2024 19:35:33.315] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[26Jul2024 19:35:33.319] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[26Jul2024 19:35:33.447] [main/WARN] [mixin/]: Reference map 'yungsbridges.refmap.json' for yungsbridges.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jul2024 19:35:33.449] [main/WARN] [mixin/]: Reference map 'yungsbridges.refmap.json' for yungsbridges_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jul2024 19:35:33.479] [main/WARN] [mixin/]: Reference map 'cupboard.refmap.json' for cupboard.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jul2024 19:35:33.526] [main/WARN] [mixin/]: Reference map 'enigmaticgraves.refmap.json' for ppfluids.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jul2024 19:35:33.529] [main/WARN] [mixin/]: Reference map 'hiddennames.refmap.json' for hiddennames.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jul2024 19:35:33.573] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/polymorph/common/integration/PolymorphIntegrations$Mod
+[26Jul2024 19:35:33.609] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting malte0811/ferritecore/mixin/config/FerriteMixinConfig$LithiumSupportState
+[26Jul2024 19:35:33.659] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/llamalad7/mixinextras/service/MixinExtrasVersion
+[26Jul2024 19:35:35.591] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[26Jul2024 19:35:36.024] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/Unit
+[26Jul2024 19:35:36.376] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/Util$IdentityStrategy
+[26Jul2024 19:35:36.390] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Reference$Type
+[26Jul2024 19:35:38.821] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction
+[26Jul2024 19:35:38.826] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$AxisDirection
+[26Jul2024 19:35:38.828] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Axis
+[26Jul2024 19:35:38.871] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/material/PushReaction
+[26Jul2024 19:35:39.136] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Plane
+[26Jul2024 19:35:39.139] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/FrontAndTop
+[26Jul2024 19:35:39.145] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/AttachFace
+[26Jul2024 19:35:39.147] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BellAttachType
+[26Jul2024 19:35:39.149] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/WallSide
+[26Jul2024 19:35:39.150] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RedstoneSide
+[26Jul2024 19:35:39.152] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoubleBlockHalf
+[26Jul2024 19:35:39.153] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Half
+[26Jul2024 19:35:39.155] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RailShape
+[26Jul2024 19:35:39.159] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BedPart
+[26Jul2024 19:35:39.160] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ChestType
+[26Jul2024 19:35:39.161] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ComparatorMode
+[26Jul2024 19:35:39.163] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoorHingeSide
+[26Jul2024 19:35:39.164] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/NoteBlockInstrument
+[26Jul2024 19:35:39.166] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/PistonType
+[26Jul2024 19:35:39.167] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SlabType
+[26Jul2024 19:35:39.168] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StairsShape
+[26Jul2024 19:35:39.170] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StructureMode
+[26Jul2024 19:35:39.172] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BambooLeaves
+[26Jul2024 19:35:39.174] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Tilt
+[26Jul2024 19:35:39.175] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DripstoneThickness
+[26Jul2024 19:35:39.176] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SculkSensorPhase
+[26Jul2024 19:35:39.351] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/DyeColor
+[26Jul2024 19:35:39.435] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/effect/MobEffectCategory
+[26Jul2024 19:35:39.436] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/ChatFormatting
+[26Jul2024 19:35:39.440] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/attributes/AttributeModifier$Operation
+[26Jul2024 19:35:39.685] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/PressurePlateBlock$Sensitivity
+[26Jul2024 19:35:39.825] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionHand
+[26Jul2024 19:35:39.837] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionResult
+[26Jul2024 19:35:39.840] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$Precipitation
+[26Jul2024 19:35:39.902] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/SkullBlock$Types
+[26Jul2024 19:35:40.425] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/WeatheringCopper$WeatherState
+[26Jul2024 19:35:40.538] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Kind
+[26Jul2024 19:35:40.649] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Types
+[26Jul2024 19:35:40.650] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Usage
+[26Jul2024 19:35:40.687] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/placement/CaveSurface
+[26Jul2024 19:35:40.711] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MobCategory
+[26Jul2024 19:35:41.811] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/goal/Goal$Flag
+[26Jul2024 19:35:43.046] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Carving
+[26Jul2024 19:35:43.281] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/StructureSpawnOverride$BoundingBoxType
+[26Jul2024 19:35:43.314] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Decoration
+[26Jul2024 19:35:43.345] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/feature/MineshaftFeature$Type
+[26Jul2024 19:35:43.371] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/feature/RuinedPortalFeature$Type
+[26Jul2024 19:35:43.388] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/OceanRuinFeature$Type
+[26Jul2024 19:35:43.413] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/pools/StructureTemplatePool$Projection
+[26Jul2024 19:35:43.451] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/JigsawBlockEntity$JointType
+[26Jul2024 19:35:43.530] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/placement/RandomSpreadType
+[26Jul2024 19:35:43.571] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$BiomeCategory
+[26Jul2024 19:35:43.576] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$TemperatureModifier
+[26Jul2024 19:35:43.594] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/BiomeSpecialEffects$GrassColorModifier
+[26Jul2024 19:35:43.732] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Marker$Type
+[26Jul2024 19:35:43.747] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$TerrainShaperSpline$SplineType
+[26Jul2024 19:35:43.829] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendOffset
+[26Jul2024 19:35:43.833] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendAlpha
+[26Jul2024 19:35:43.836] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$TwoArgumentSimpleFunction$Type
+[26Jul2024 19:35:43.844] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd$Type
+[26Jul2024 19:35:43.846] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Mapped$Type
+[26Jul2024 19:35:43.869] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$WeirdScaledSampler$RarityValueMapper
+[26Jul2024 19:35:43.884] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/TerrainShaper$Coordinate
+[26Jul2024 19:35:43.961] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/OreVeinifier$VeinType
+[26Jul2024 19:35:43.983] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Hole
+[26Jul2024 19:35:43.991] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Steep
+[26Jul2024 19:35:44.011] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Bandlands
+[26Jul2024 19:35:44.013] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Temperature
+[26Jul2024 19:35:44.017] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$AbovePreliminarySurface
+[26Jul2024 19:35:44.087] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot
+[26Jul2024 19:35:44.091] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot$Type
+[26Jul2024 19:35:44.095] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/Enchantment$Rarity
+[26Jul2024 19:35:44.097] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/ProtectionEnchantment$Type
+[26Jul2024 19:35:44.099] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/EnchantmentCategory
+[26Jul2024 19:35:44.619] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Rarity
+[26Jul2024 19:35:44.715] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/AbstractMinecart$Type
+[26Jul2024 19:35:44.723] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/Boat$Type
+[26Jul2024 19:35:44.725] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ArmorMaterials
+[26Jul2024 19:35:44.753] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Tiers
+[26Jul2024 19:35:44.834] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/BannerPattern
+[26Jul2024 19:35:44.923] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType
+[26Jul2024 19:35:44.949] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/ChunkStatus$ChunkType
+[26Jul2024 19:35:45.551] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BeardifierMarker
+[26Jul2024 19:35:46.627] [Modding Legacy/blue_skies/Supporters thread/INFO] [ModdingLegacy/blue_skies/Supporter/]: Attempting to load the Modding Legacy supporters list from https://moddinglegacy.com/supporters-changelogs/supporters.txt
+[26Jul2024 19:35:46.646] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/Commands$CommandSelection
+[26Jul2024 19:35:46.683] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/client/gui/SortButtonsPosition
+[26Jul2024 19:35:46.736] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TickEvent$Phase
+[26Jul2024 19:35:46.736] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TickEvent$Type
+[26Jul2024 19:35:46.750] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/nyfaria/nyfsquiver/items/QuiverType
+[26Jul2024 19:35:46.753] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/nyfaria/nyfsquiver/config/Anchor
+[26Jul2024 19:35:46.845] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MobSpawnType
+[26Jul2024 19:35:46.851] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/NetworkDirection
+[26Jul2024 19:35:47.329] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/darkhax/bookshelf/api/PhysicalSide
+[26Jul2024 19:35:47.336] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[26Jul2024 19:35:47.338] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[26Jul2024 19:35:47.340] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[26Jul2024 19:35:47.342] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[26Jul2024 19:35:47.344] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[26Jul2024 19:35:47.346] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[26Jul2024 19:35:47.705] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/upgrades/feeding/HungerLevel
+[26Jul2024 19:35:47.731] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedbackpacks/upgrades/refill/RefillUpgradeWrapper$TargetSlot
+[26Jul2024 19:35:47.773] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedbackpacks/upgrades/inception/InventoryOrder
+[26Jul2024 19:35:47.785] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedbackpacks/upgrades/toolswapper/ToolSwapMode
+[26Jul2024 19:35:47.841] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/upgrades/xppump/AutomationDirection
+[26Jul2024 19:35:47.865] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/ClipContext$Fluid
+[26Jul2024 19:35:47.902] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/erfurt/magicaljewelry/util/enums/JewelRarity
+[26Jul2024 19:35:47.980] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Pose
+[26Jul2024 19:35:48.051] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tile/TileEntityChemicalTank$GasMode
+[26Jul2024 19:35:48.075] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/dairymoose/modernlife/items/GuitarItem$Tuning
+[26Jul2024 19:35:48.083] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/dairymoose/modernlife/blocks/RadiatorBlock$HeatType
+[26Jul2024 19:35:48.091] [modloading-worker-0/INFO] [de.keksuccino.melody.Melody/]: [MELODY] Disabling Melody since it's loaded server-side.
+[26Jul2024 19:35:48.123] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/blay09/mods/balm/api/event/TickPhase
+[26Jul2024 19:35:48.121] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tile/interfaces/IFluidContainerManager$ContainerEditMode
+[26Jul2024 19:35:48.144] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/lib/math/voxel/VoxelCuboid$CuboidSide
+[26Jul2024 19:35:48.132] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/blay09/mods/balm/api/event/EventPriority
+[26Jul2024 19:35:48.188] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/capabilities/CapabilityManager
+[26Jul2024 19:35:48.197] [Modding Legacy/blue_skies/Supporters thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/legacy/blue_skies/MLSupporter$Rank
+[26Jul2024 19:35:48.198] [Modding Legacy/blue_skies/Supporters thread/INFO] [ModdingLegacy/blue_skies/Supporter/]: Successfully loaded the Modding Legacy supporters list.
+[26Jul2024 19:35:48.234] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/GameRules$Category
+[26Jul2024 19:35:48.279] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting tictim/paraglider/loot/ParagliderModifier$ConfigOption
+[26Jul2024 19:35:48.297] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting tictim/paraglider/capabilities/PlayerState
+[26Jul2024 19:35:48.335] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting tictim/paraglider/recipe/ConfigConditionSerializer
+[26Jul2024 19:35:48.398] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[26Jul2024 19:35:48.399] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[26Jul2024 19:35:48.408] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tile/interfaces/IRedstoneControl$RedstoneControl
+[26Jul2024 19:35:48.430] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Entity$RemovalReason
+[26Jul2024 19:35:48.445] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MoverType
+[26Jul2024 19:35:48.446] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Entity$MovementEmission
+[26Jul2024 19:35:48.448] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/sounds/SoundSource
+[26Jul2024 19:35:48.531] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/Rotation
+[26Jul2024 19:35:48.533] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/Mirror
+[26Jul2024 19:35:48.532] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/generators/common/GeneratorsChemicalConstants
+[26Jul2024 19:35:48.554] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/arguments/EntityAnchorArgument$Anchor
+[26Jul2024 19:35:48.586] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/WorldgenRandom$Algorithm
+[26Jul2024 19:35:48.613] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/feature/NoiseEffect
+[26Jul2024 19:35:48.930] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/generators/common/tile/fission/TileEntityFissionReactorLogicAdapter$FissionReactorLogic
+[26Jul2024 19:35:48.937] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/generators/common/tile/fission/TileEntityFissionReactorLogicAdapter$RedstoneStatus
+[26Jul2024 19:35:49.013] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/generators/common/tile/fusion/TileEntityFusionReactorLogicAdapter$FusionReactorLogic
+[26Jul2024 19:35:49.016] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/inventory/RecipeBookType
+[26Jul2024 19:35:49.081] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/SpawnPlacements$Type
+[26Jul2024 19:35:49.400] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting gollorum/signpost/minecraft/block/PostBlock$Variant$RequiredTool
+[26Jul2024 19:35:49.401] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting gollorum/signpost/minecraft/block/PropertiesUtil$WoodType
+[26Jul2024 19:35:49.515] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting gollorum/signpost/worldgen/Villages$VillageType
+[26Jul2024 19:35:49.562] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting iDiamondhunter/morebows/config/ConfigGeneral$CustomArrowMultiShotType
+[26Jul2024 19:35:49.758] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
+[26Jul2024 19:35:49.772] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
+[26Jul2024 19:35:49.847] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
+[26Jul2024 19:35:49.848] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
+[26Jul2024 19:35:49.896] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/supermartijn642/core/CoreSide
+[26Jul2024 19:35:49.922] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/supermartijn642/core/registry/RegistryEntryAcceptor$Registry
+[26Jul2024 19:35:50.074] [modloading-worker-0/INFO] [twilightforest/]: Loaded compatibility for mod Tinkers Construct.
+[26Jul2024 19:35:50.075] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod undergarden.
+[26Jul2024 19:35:50.075] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod immersiveengineering.
+[26Jul2024 19:35:50.076] [modloading-worker-0/INFO] [twilightforest/]: Loaded compatibility for mod Curios.
+[26Jul2024 19:35:50.079] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/client/CuriosClientConfig$Client$ButtonCorner
+[26Jul2024 19:35:50.098] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.7.
+[26Jul2024 19:35:50.112] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/UseAnim
+[26Jul2024 19:35:50.114] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/inventory/ClickAction
+[26Jul2024 19:35:50.164] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/PackType
+[26Jul2024 19:35:50.197] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting xfacthd/framedblocks/common/data/FramedToolType
+[26Jul2024 19:35:50.209] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting xfacthd/framedblocks/common/data/BlockType
+[26Jul2024 19:35:50.264] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting nonamecrackers2/witherstormmod/common/config/ConfigValue$ReloadType
+[26Jul2024 19:35:50.292] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting nonamecrackers2/witherstormmod/common/util/UltimateTargetManager$TargetingType
+[26Jul2024 19:35:50.326] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mojang/math/OctahedralGroup
+[26Jul2024 19:35:50.329] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mojang/math/SymmetricGroup3
+[26Jul2024 19:35:50.458] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/api/cooldown/CooldownType
+[26Jul2024 19:35:50.523] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$FogDensity
+[26Jul2024 19:35:50.536] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$FogPeriod
+[26Jul2024 19:35:50.540] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/block/GraveModel
+[26Jul2024 19:35:50.546] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/block/BlockGraveMarble$MarbleType
+[26Jul2024 19:35:50.549] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$GraveSkinRule
+[26Jul2024 19:35:50.553] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$GraveSpawnRule
+[26Jul2024 19:35:50.556] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$AutoEquipRule
+[26Jul2024 19:35:50.561] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$MarkerType
+[26Jul2024 19:35:50.567] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$FontRule
+[26Jul2024 19:35:50.600] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting xfacthd/framedblocks/common/data/property/NullableDirection
+[26Jul2024 19:35:50.610] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Enchantments$MagicSiphonOnPlayerRule
+[26Jul2024 19:35:50.777] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting nonamecrackers2/witherstormmod/common/entity/CommandBlockEntity$Mode
+[26Jul2024 19:35:50.779] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting nonamecrackers2/witherstormmod/common/entity/CommandBlockEntity$State
+[26Jul2024 19:35:50.781] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting nonamecrackers2/witherstormmod/common/entity/WitheredSymbiontEntity$BossfightStage
+[26Jul2024 19:35:50.783] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting nonamecrackers2/witherstormmod/common/entity/WitheredSymbiontEntity$SpellType
+[26Jul2024 19:35:50.808] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting xfacthd/framedblocks/common/data/property/HorizontalRotation
+[26Jul2024 19:35:50.810] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/item/ItemScrollBuff$SpellBuff
+[26Jul2024 19:35:50.816] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/item/ItemAdvancement$IconType
+[26Jul2024 19:35:50.955] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[26Jul2024 19:35:50.960] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 9
+[26Jul2024 19:35:50.962] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 9 has been initalized!
+[26Jul2024 19:35:51.012] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/helper/UpdaterHandler$PoolType
+[26Jul2024 19:35:51.430] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/oblivioussp/spartanweaponry/client/gui/AlignmentHelper$Alignment
+[26Jul2024 19:35:51.434] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting xfacthd/framedblocks/client/screen/overlay/BlockInteractOverlay$Mode
+[26Jul2024 19:35:51.433] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/oblivioussp/spartanweaponry/client/gui/AlignmentHelper$VerticalAlignment
+[26Jul2024 19:35:51.449] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/oblivioussp/spartanweaponry/client/gui/AlignmentHelper$HorizontalAlignment
+[26Jul2024 19:35:51.535] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/architectury/utils/Env
+[26Jul2024 19:35:51.664] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[26Jul2024 19:35:51.671] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/architectury/networking/NetworkManager$Side
+[26Jul2024 19:35:52.428] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/Kiwi$LoadingStage
+[26Jul2024 19:35:52.480] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/bobmowzie/mowziesmobs/server/creativetab/CreativeTabHandler
+[26Jul2024 19:35:52.539] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/config/KiwiConfig$ConfigType
+[26Jul2024 19:35:52.577] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/guns/client/screen/ButtonAlignment
+[26Jul2024 19:35:52.586] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/guns/client/SwayType
+[26Jul2024 19:35:52.741] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedstorage/item/StorageToolItem$Mode
+[26Jul2024 19:35:52.764] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/network/KiwiPacket$Direction
+[26Jul2024 19:35:52.870] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/guns/client/util/Easings
+[26Jul2024 19:35:52.889] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting fuzs/puzzleslib/config/ConfigLoadingStage
+[26Jul2024 19:35:52.903] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting fuzs/easymagic/config/ServerConfig$ReRollEnchantments
+[26Jul2024 19:35:52.910] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting fuzs/easymagic/config/ServerConfig$ShowEnchantments
+[26Jul2024 19:35:52.917] [modloading-worker-0/INFO] [Kiwi/Init]: Processing 3 KiwiModule annotations
+[26Jul2024 19:35:52.958] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[26Jul2024 19:35:52.975] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting fuzs/puzzleslib/network/MessageDirection
+[26Jul2024 19:35:52.990] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[26Jul2024 19:35:53.031] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/blay09/mods/waystones/config/DimensionalWarp
+[26Jul2024 19:35:53.033] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/blay09/mods/waystones/config/WorldGenStyle
+[26Jul2024 19:35:53.034] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/blay09/mods/waystones/worldgen/namegen/NameGenerationMode
+[26Jul2024 19:35:53.128] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/dainxt/weaponthrow/packets/CPacketThrow$State
+[26Jul2024 19:35:53.205] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/ellpeck/prettypipes/items/ModuleTier
+[26Jul2024 19:35:53.245] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/chaosthedude/naturescompass/client/OverlaySide
+[26Jul2024 19:35:53.330] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/magistuarmory/misc/HeraldryPattern
+[26Jul2024 19:35:53.378] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/api/data/sync/SyncedDataKey$SyncMode
+[26Jul2024 19:35:53.382] [modloading-worker-0/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key tac:aiming for minecraft:living_entity
+[26Jul2024 19:35:53.382] [modloading-worker-0/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key tac:shooting for minecraft:living_entity
+[26Jul2024 19:35:53.382] [modloading-worker-0/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key tac:reloading for minecraft:living_entity
+[26Jul2024 19:35:53.383] [modloading-worker-0/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key tac:moving for minecraft:living_entity
+[26Jul2024 19:35:53.498] [modloading-worker-0/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key tac:stop_anima for minecraft:living_entity
+[26Jul2024 19:35:53.498] [modloading-worker-0/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key tac:qrepairing for minecraft:living_entity
+[26Jul2024 19:35:53.754] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/chaosthedude/explorerscompass/client/OverlaySide
+[26Jul2024 19:35:53.859] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/itsmeow/betteranimalsplus/imdlib/util/HeadType$PlacementType
+[26Jul2024 19:35:53.862] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/itsmeow/betteranimalsplus/imdlib/util/HeadType$HeadIDMapping
+[26Jul2024 19:35:53.909] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/magistuarmory/client/render/model/Models$ArmorEnum
+[26Jul2024 19:35:53.949] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/magistuarmory/client/render/model/Models$ShieldEnum
+[26Jul2024 19:35:53.992] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/enums/EnumDragonArmor
+[26Jul2024 19:35:54.002] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/enums/EnumDragonEgg
+[26Jul2024 19:35:54.012] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/EntityTypes$LiftType
+[26Jul2024 19:35:54.020] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
+[26Jul2024 19:35:54.021] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[26Jul2024 19:35:54.059] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/enums/EnumSeaSerpent
+[26Jul2024 19:35:54.062] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/data/TransportMode
+[26Jul2024 19:35:54.067] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/itsmeow/betteranimalsplus/imdlib/util/config/CommonConfigAPI$ConfigType
+[26Jul2024 19:35:54.068] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_generate_path
+[26Jul2024 19:35:54.076] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_clear_trains
+[26Jul2024 19:35:54.077] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_sign_types
+[26Jul2024 19:35:54.077] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_add_balance
+[26Jul2024 19:35:54.078] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_pids_update
+[26Jul2024 19:35:54.079] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_arrival_projector_update
+[26Jul2024 19:35:54.091] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_use_time_and_wind_sync
+[26Jul2024 19:35:54.098] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_station
+[26Jul2024 19:35:54.099] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_platform
+[26Jul2024 19:35:54.099] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_siding
+[26Jul2024 19:35:54.100] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_route
+[26Jul2024 19:35:54.101] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_depot
+[26Jul2024 19:35:54.101] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_lift
+[26Jul2024 19:35:54.102] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_lift_track_floor
+[26Jul2024 19:35:54.103] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_station
+[26Jul2024 19:35:54.103] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_platform
+[26Jul2024 19:35:54.110] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_siding
+[26Jul2024 19:35:54.118] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_route
+[26Jul2024 19:35:54.118] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_depot
+[26Jul2024 19:35:54.119] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_train_announcer
+[26Jul2024 19:35:54.120] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_remove_rail_action
+[26Jul2024 19:35:54.120] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:update_train_passenger_position
+[26Jul2024 19:35:54.121] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:update_lift_passenger_position
+[26Jul2024 19:35:54.122] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:update_entity_seat_position
+[26Jul2024 19:35:54.122] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_drive_train
+[26Jul2024 19:35:54.123] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_press_lift_button
+[26Jul2024 19:35:54.195] [modloading-worker-0/INFO] [mtr.libraries.org.eclipse.jetty.util.log/]: Logging initialized @30006ms to mtr.libraries.org.eclipse.jetty.util.log.Slf4jLog
+[26Jul2024 19:35:54.220] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/libraries/org/eclipse/jetty/util/component/ContainerLifeCycle$Managed
+[26Jul2024 19:35:54.242] [modloading-worker-0/INFO] [dev.itsmeow.betteranimalsplus.BetterAnimalsPlusMod/]: Injecting super coyotes...
+[26Jul2024 19:35:54.243] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/enums/EnumSkullType
+[26Jul2024 19:35:54.254] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betteranimalsplus:main_channel/23ca639241d73eaf919246602470f295
+[26Jul2024 19:35:54.255] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/enums/EnumTroll
+[26Jul2024 19:35:54.261] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betteranimalsplus:main_channel/d8f3c48219d933a6b2302c4d780df514
+[26Jul2024 19:35:54.264] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/enums/EnumTroll$Weapon
+[26Jul2024 19:35:54.265] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betteranimalsplus:main_channel/dd94e2f3f0db361b8621d0f834adec1b
+[26Jul2024 19:35:54.267] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betteranimalsplus:main_channel/59f1974289d63eb58cbd6fe813098096
+[26Jul2024 19:35:54.270] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betteranimalsplus:main_channel/fd8d1482ead03ca8a9954263aa7f6289
+[26Jul2024 19:35:54.293] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/libraries/org/eclipse/jetty/http/HttpScheme
+[26Jul2024 19:35:54.296] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/libraries/org/eclipse/jetty/http/CookieCompliance
+[26Jul2024 19:35:54.298] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/libraries/org/eclipse/jetty/server/MultiPartFormDataCompliance
+[26Jul2024 19:35:54.308] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/libraries/org/eclipse/jetty/http/HttpMethod
+[26Jul2024 19:35:54.310] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/libraries/org/eclipse/jetty/http/HttpMethod$Type
+[26Jul2024 19:35:54.326] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/libraries/org/eclipse/jetty/http/HttpVersion
+[26Jul2024 19:35:54.328] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/libraries/org/eclipse/jetty/http/HttpCompliance
+[26Jul2024 19:35:54.329] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/libraries/org/eclipse/jetty/http/HttpComplianceSection
+[26Jul2024 19:35:54.334] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/libraries/org/eclipse/jetty/http/HttpURI$Violation
+[26Jul2024 19:35:54.528] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/libraries/org/eclipse/jetty/server/handler/ContextHandler$ContextStatus
+[26Jul2024 19:35:54.555] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/libraries/org/eclipse/jetty/server/handler/ContextHandler$Availability
+[26Jul2024 19:35:54.622] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/libraries/org/eclipse/jetty/servlet/Source$Origin
+[26Jul2024 19:35:54.692] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/inventory/container/QIOItemViewerContainer$ListSortType
+[26Jul2024 19:35:54.696] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/inventory/container/QIOItemViewerContainer$SortDirection
+[26Jul2024 19:35:54.698] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/inventory/container/SelectedWindowData$WindowType
+[26Jul2024 19:35:54.705] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/MekanismLang
+[26Jul2024 19:35:54.742] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/ingredient/serializer/IngredientAnySerializer
+[26Jul2024 19:35:54.750] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/ingredient/serializer/IngredientListSerializer
+[26Jul2024 19:35:54.751] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/ingredient/serializer/IngredientTransformedSerializer
+[26Jul2024 19:35:54.752] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/ingredient/serializer/IngredientConditionedSerializer
+[26Jul2024 19:35:54.753] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/ingredient/serializer/IngredientPartialTagSerializer
+[26Jul2024 19:35:54.816] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/util/MekanismUtils$ResourceType
+[26Jul2024 19:35:54.871] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/util/UnitDisplayUtils$EnergyUnit
+[26Jul2024 19:35:54.906] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/util/UnitDisplayUtils$TemperatureUnit
+[26Jul2024 19:35:54.924] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/EnergyCubeTier
+[26Jul2024 19:35:54.933] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/tier/BaseTier
+[26Jul2024 19:35:54.934] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/text/EnumColor
+[26Jul2024 19:35:54.939] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/text/APILang
+[26Jul2024 19:35:54.944] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/FluidTankTier
+[26Jul2024 19:35:54.945] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/ChemicalTankTier
+[26Jul2024 19:35:54.960] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/HumanoidArm
+[26Jul2024 19:35:54.961] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/pathfinder/BlockPathTypes
+[26Jul2024 19:35:54.991] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/RelativeSide
+[26Jul2024 19:35:55.000] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting vectorwing/farmersdelight/client/recipebook/CookingPotRecipeBookTab
+[26Jul2024 19:35:55.006] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/util/UnitDisplayUtils$MeasurementUnit
+[26Jul2024 19:35:55.007] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/util/UnitDisplayUtils$FloatingLongMeasurementUnit
+[26Jul2024 19:35:55.008] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/lib/transmitter/TransmissionType
+[26Jul2024 19:35:55.009] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/CableTier
+[26Jul2024 19:35:55.012] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/TransporterTier
+[26Jul2024 19:35:55.013] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/ConductorTier
+[26Jul2024 19:35:55.014] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/TubeTier
+[26Jul2024 19:35:55.018] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/PipeTier
+[26Jul2024 19:35:55.021] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.2.21, for MC 1.18.2 with MCP 20220404.173914
+[26Jul2024 19:35:55.022] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/BinTier
+[26Jul2024 19:35:55.023] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.2.21 Initialized
+[26Jul2024 19:35:55.024] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/InductionCellTier
+[26Jul2024 19:35:55.028] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/InductionProviderTier
+[26Jul2024 19:35:55.029] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/FactoryTier
+[26Jul2024 19:35:55.031] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/blocktype/FactoryType
+[26Jul2024 19:35:55.046] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/Upgrade
+[26Jul2024 19:35:55.052] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tile/base/SubstanceType
+[26Jul2024 19:35:55.061] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/resource/ore/OreType
+[26Jul2024 19:35:55.052] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/ingredient/type/IIngredientEmpty
+[26Jul2024 19:35:55.066] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/ingredient/type/IIngredientAny
+[26Jul2024 19:35:55.070] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/resource/PrimaryResource
+[26Jul2024 19:35:55.075] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/resource/BlockResourceInfo
+[26Jul2024 19:35:55.086] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/world/height/HeightShape
+[26Jul2024 19:35:55.090] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/world/height/AnchorType
+[26Jul2024 19:35:55.097] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/resource/MiscResource
+[26Jul2024 19:35:55.104] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/resource/ResourceType
+[26Jul2024 19:35:55.108] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/chemical/ChemicalType
+[26Jul2024 19:35:55.133] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/enums/EnumParticles
+[26Jul2024 19:35:55.154] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/loot/LootManager
+[26Jul2024 19:35:55.160] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/loot/table/LootTableManager
+[26Jul2024 19:35:55.163] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/loot/modifier/LootModifierManager
+[26Jul2024 19:35:55.180] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/recipe/manager/FurnaceRecipeManager
+[26Jul2024 19:35:55.187] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/recipe/manager/StoneCutterManager
+[26Jul2024 19:35:55.188] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/recipe/manager/BlastFurnaceRecipeManager
+[26Jul2024 19:35:55.189] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/recipe/manager/CraftingTableRecipeManager
+[26Jul2024 19:35:55.191] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/recipe/manager/SmithingRecipeManager
+[26Jul2024 19:35:55.194] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/recipe/manager/GenericRecipesManager
+[26Jul2024 19:35:55.196] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/recipe/manager/CampFireRecipeManager
+[26Jul2024 19:35:55.197] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/recipe/manager/SmokerRecipeManager
+[26Jul2024 19:35:55.211] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/recipe/MirrorAxis
+[26Jul2024 19:35:55.218] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/supplementaries/configs/ClientConfigs$GraphicsFanciness
+[26Jul2024 19:35:55.234] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/supplementaries/common/capabilities/mobholder/CapturedMobsHelper$AnimationCategory
+[26Jul2024 19:35:55.249] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/AxisCycle
+[26Jul2024 19:35:55.254] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/supplementaries/client/renderers/entities/QuiverLayer$QuiverMode
+[26Jul2024 19:35:55.259] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/phys/HitResult$Type
+[26Jul2024 19:35:55.265] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/item/ItemConfigurator$ConfiguratorMode
+[26Jul2024 19:35:55.281] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/supplementaries/common/block/blocks/LightableLanternBlock$FallMode
+[26Jul2024 19:35:55.290] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/supplementaries/configs/ServerConfigs$Hands
+[26Jul2024 19:35:55.294] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/supplementaries/common/entities/BombEntity$BreakingMode
+[26Jul2024 19:35:55.325] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/QIODriveTier
+[26Jul2024 19:35:55.334] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/item/gear/ItemAtomicDisassembler$DisassemblerMode
+[26Jul2024 19:35:55.440] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekatool/ModuleExcavationEscalationUnit$ExcavationMode
+[26Jul2024 19:35:55.446] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekatool/ModuleAttackAmplificationUnit$AttackDamage
+[26Jul2024 19:35:55.455] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekatool/ModuleFarmingUnit$FarmingRadius
+[26Jul2024 19:35:55.456] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/gear/ModuleData$ExclusiveFlag
+[26Jul2024 19:35:55.523] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekatool/ModuleBlastingUnit$BlastRadius
+[26Jul2024 19:35:55.525] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekatool/ModuleVeinMiningUnit$ExcavationRange
+[26Jul2024 19:35:55.539] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/item/interfaces/IJetpackItem$JetpackMode
+[26Jul2024 19:35:55.547] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/advancements/FrameType
+[26Jul2024 19:35:55.553] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekasuit/ModuleLocomotiveBoostingUnit$SprintBoost
+[26Jul2024 19:35:55.556] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/fluids/capability/IFluidHandler$FluidAction
+[26Jul2024 19:35:55.569] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekasuit/ModuleHydraulicPropulsionUnit$JumpBoost
+[26Jul2024 19:35:55.570] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekasuit/ModuleHydraulicPropulsionUnit$StepAssist
+[26Jul2024 19:35:55.571] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekasuit/ModuleMagneticAttractionUnit$Range
+[26Jul2024 19:35:55.581] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/tier/AlloyTier
+[26Jul2024 19:35:55.638] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/world/PistonEvent$PistonMoveType
+[26Jul2024 19:35:55.648] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
+[26Jul2024 19:35:55.658] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/ClipContext$Block
+[26Jul2024 19:35:55.660] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/block/attribute/AttributeStateFacing$FacePlacementType
+[26Jul2024 19:35:55.682] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/saveddata/maps/MapDecoration$Type
+[26Jul2024 19:35:55.701] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/Difficulty
+[26Jul2024 19:35:55.706] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/Explosion$BlockInteraction
+[26Jul2024 19:35:55.713] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/GameType
+[26Jul2024 19:35:55.745] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/progwml6/ironchest/common/item/IronChestsUpgradeType
+[26Jul2024 19:35:55.746] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/progwml6/ironchest/common/block/IronChestsTypes
+[26Jul2024 19:35:55.752] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/supplementaries/setup/RegistryHelper$VariantType2
+[26Jul2024 19:35:55.808] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/loot/LootContext$EntityTarget
+[26Jul2024 19:35:55.820] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/supplementaries/common/entities/BombEntity$BombType
+[26Jul2024 19:35:55.858] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/material/MaterialColor$Brightness
+[26Jul2024 19:35:55.891] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/tconstruct/library/utils/Orientation2D
+[26Jul2024 19:35:55.903] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/tconstruct/library/utils/Orientation2D$Orientation1D
+[26Jul2024 19:35:55.914] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/tconstruct/common/config/Config$Common$LogInvalidToolStack
+[26Jul2024 19:35:55.916] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/tconstruct/world/TinkerHeadType
+[26Jul2024 19:35:55.925] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/tconstruct/shared/block/SlimeType
+[26Jul2024 19:35:55.931] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/tconstruct/shared/block/ClearStainedGlassBlock$GlassColor
+[26Jul2024 19:35:55.944] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/selene/block_set/BlockRegistryHelper$VariantType
+[26Jul2024 19:35:56.026] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/repository/Pack$Position
+[26Jul2024 19:35:56.103] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/zencode/ZenTypeInfo$TypeKind
+[26Jul2024 19:35:56.113] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/tconstruct/gadgets/entity/FrameType
+[26Jul2024 19:35:56.217] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/mantle/registration/object/WoodBlockObject$WoodVariant
+[26Jul2024 19:35:56.246] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/data/base/IData$Type
+[26Jul2024 19:35:56.248] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/openzen/zencode/java/ZenCodeType$OperatorType
+[26Jul2024 19:35:56.249] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/tconstruct/common/Sounds
+[26Jul2024 19:35:56.256] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/tconstruct/common/registration/GeodeItemObject$BudSize
+[26Jul2024 19:35:56.259] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/lucky/common/attribute/AttrType
+[26Jul2024 19:35:56.458] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/ingredient/transform/serializer/TransformerReuseSerializer
+[26Jul2024 19:35:56.486] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/lucky/common/EnchantmentType
+[26Jul2024 19:35:56.489] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/lucky/common/GameType
+[26Jul2024 19:35:56.550] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/openzen/zenscript/codemodel/type/BasicTypeID
+[26Jul2024 19:35:56.921] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/tconstruct/tools/item/ArmorSlotType
+[26Jul2024 19:35:56.986] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/tconstruct/smeltery/block/component/SearedTankBlock$TankType
+[26Jul2024 19:35:57.059] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/lucky/kotlin/io/FileWalkDirection
+[26Jul2024 19:35:57.068] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/lucky/kotlin/collections/State
+[26Jul2024 19:35:57.204] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/impl/network/message/ClientMessages
+[26Jul2024 19:35:57.214] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/tconstruct/library/recipe/melting/IMeltingContainer$OreRateType
+[26Jul2024 19:35:57.251] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/tconstruct/shared/network/GeneratePartTexturesPacket$Operation
+[26Jul2024 19:35:57.257] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/EmptyBlockGetter
+[26Jul2024 19:35:57.281] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/tconstruct/tools/network/TinkerControlPacket
+[26Jul2024 19:35:57.283] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/tconstruct/tools/network/InteractWithAirPacket
+[26Jul2024 19:35:57.331] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/mantle/client/TooltipKey
+[26Jul2024 19:35:57.343] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting slimeknights/tconstruct/library/modifiers/hook/interaction/InteractionSource
+[26Jul2024 19:35:57.414] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/gigaherz/toolbelt/ConfigData$ThreeWayChoice
+[26Jul2024 19:35:57.422] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/pathfinder/PathComputationType
+[26Jul2024 19:35:57.740] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/jozufozu/flywheel/config/BackendType
+[26Jul2024 19:35:57.866] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[26Jul2024 19:35:57.897] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllTags$AllBlockTags
+[26Jul2024 19:35:57.900] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllTags$NameSpace
+[26Jul2024 19:35:57.914] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllTags$AllItemTags
+[26Jul2024 19:35:57.922] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllTags$AllFluidTags
+[26Jul2024 19:35:57.927] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllTags$AllEntityTags
+[26Jul2024 19:35:57.929] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllTags$AllRecipeSerializerTags
+[26Jul2024 19:35:57.929] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/itsmeow/whisperwoods/imdlib/util/config/CommonConfigAPI$ConfigType
+[26Jul2024 19:35:58.006] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id whisperwoods:main_channel/cdff7a8a5b4f3f218b5f77ef22e66016
+[26Jul2024 19:35:58.007] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id whisperwoods:main_channel/773a011a51b630fba84ab824165fbd92
+[26Jul2024 19:35:58.007] [modloading-worker-0/INFO] [dev.itsmeow.whisperwoods.WhisperwoodsMod/]: Spooking you...
+[26Jul2024 19:35:58.151] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting tech/thatgravyboat/creeperoverhaul/common/Events
+[26Jul2024 19:35:58.185] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting fuzs/puzzleslib/api/core/v1/ContentRegistrationFlags
+[26Jul2024 19:35:58.249] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[26Jul2024 19:35:58.252] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting fuzs/puzzleslib/api/core/v1/DistType
+[26Jul2024 19:35:58.807] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/block/attribute/AttributeMultiblock$MultiblockType
+[26Jul2024 19:35:58.828] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/block/attribute/AttributeStateBoilerValveMode$BoilerValveMode
+[26Jul2024 19:35:58.990] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/ChemicalConstants
+[26Jul2024 19:35:59.096] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/kinetics/deployer/DeployerBlockEntity$Mode
+[26Jul2024 19:35:59.423] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/item/gear/ItemFlamethrower$FlamethrowerMode
+[26Jul2024 19:35:59.429] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/security/SecurityMode
+[26Jul2024 19:35:59.479] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/trains/signal/SignalBlock$SignalType
+[26Jul2024 19:35:59.485] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/trains/signal/SignalBlockEntity$SignalState
+[26Jul2024 19:35:59.551] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/miner/ThreadMinerSearch$State
+[26Jul2024 19:35:59.600] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tile/laser/TileEntityLaserAmplifier$RedstoneOutput
+[26Jul2024 19:35:59.807] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/foundation/data/recipe/CompatMetals
+[26Jul2024 19:35:59.810] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/foundation/data/recipe/Mods
+[26Jul2024 19:35:59.940] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/teammetallurgy/aquaculture/entity/FishType
+[26Jul2024 19:36:00.013] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/equipment/zapper/PlacementPatterns
+[26Jul2024 19:36:00.015] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/equipment/zapper/terrainzapper/TerrainBrushes
+[26Jul2024 19:36:00.016] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/equipment/zapper/terrainzapper/TerrainTools
+[26Jul2024 19:36:00.017] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/equipment/zapper/terrainzapper/PlacementOptions
+[26Jul2024 19:36:00.292] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/foundation/block/connected/AllCTTypes
+[26Jul2024 19:36:00.394] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting immersive_melodies/network/s2c/OpenGuiRequest$Type
+[26Jul2024 19:36:00.405] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting immersive_melodies/network/c2s/ItemActionMessage$State
+[26Jul2024 19:36:00.421] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[26Jul2024 19:36:00.582] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/chiselsandbits/platforms/core/dist/Dist
+[26Jul2024 19:36:00.607] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/chiselsandbits/api/client/render/preview/placement/PlacementPreviewRenderMode
+[26Jul2024 19:36:00.634] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/chiselsandbits/platforms/core/config/ConfigurationType
+[26Jul2024 19:36:00.653] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/decoration/palettes/AllPaletteStoneTypes
+[26Jul2024 19:36:00.654] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/chiselsandbits/api/multistate/StateEntrySize
+[26Jul2024 19:36:00.656] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/decoration/palettes/PaletteBlockPattern$PatternNameType
+[26Jul2024 19:36:00.685] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlockEntityTypes/]: Loaded block entity configuration.
+[26Jul2024 19:36:00.731] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlocks/]: Loaded block configuration.
+[26Jul2024 19:36:00.747] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModeGroups/]: Loaded chisel mode group configuration.
+[26Jul2024 19:36:00.794] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/chiselsandbits/api/util/LocalStrings
+[26Jul2024 19:36:01.087] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/kinetics/clock/CuckooClockBlockEntity$Animation
+[26Jul2024 19:36:01.134] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/kinetics/belt/BeltBlockEntity$CasingType
+[26Jul2024 19:36:01.172] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/kinetics/mechanicalArm/ArmBlockEntity$Phase
+[26Jul2024 19:36:01.330] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/kinetics/deployer/DeployerBlockEntity$State
+[26Jul2024 19:36:01.407] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/logistics/depot/EjectorBlockEntity$State
+[26Jul2024 19:36:01.481] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/trains/signal/SignalBlockEntity$OverlayState
+[26Jul2024 19:36:01.502] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllRecipeTypes
+[26Jul2024 19:36:01.542] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllParticleTypes
+[26Jul2024 19:36:01.566] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllPackets
+[26Jul2024 19:36:01.577] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/schematics/cannon/ConfigureSchematicannonPacket$Option
+[26Jul2024 19:36:01.799] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/infrastructure/config/CClient$PlacementIndicatorSetting
+[26Jul2024 19:36:01.805] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/foundation/config/ui/ConfigAnnotations$IntDisplay
+[26Jul2024 19:36:01.828] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/infrastructure/config/CKinetics$DeployerAggroSetting
+[26Jul2024 19:36:01.830] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/contraptions/ContraptionMovementSetting
+[26Jul2024 19:36:01.840] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/fluids/transfer/FluidManipulationBehaviour$BottomlessFluidMode
+[26Jul2024 19:36:01.886] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/compat/Mods
+[26Jul2024 19:36:01.902] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModes/]: Loaded chisel mode configuration.
+[26Jul2024 19:36:01.904] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModContainerTypes/]: Loaded container type configuration.
+[26Jul2024 19:36:01.908] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModCreativeTabs/]: Loaded item group configuration.
+[26Jul2024 19:36:02.015] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModItems/]: Loaded item configuration.
+[26Jul2024 19:36:02.034] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModMetadataKeys/]: Loaded metadata key configuration.
+[26Jul2024 19:36:02.042] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModelProperties/]: Loaded model property configuration.
+[26Jul2024 19:36:02.047] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperation/]: Loaded modification operation configuration.
+[26Jul2024 19:36:02.053] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperationGroups/]: Loaded modification operation group configuration.
+[26Jul2024 19:36:02.067] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModPatternPlacementTypes/]: Loaded pattern placement type configuration.
+[26Jul2024 19:36:02.077] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModRecipeSerializers/]: Loaded recipe serializer configuration.
+[26Jul2024 19:36:02.082] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModTags/]: Loaded tag configuration.
+[26Jul2024 19:36:02.106] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/processing/recipe/HeatCondition
+[26Jul2024 19:36:02.163] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/data/BlockFamily$Variant
+[26Jul2024 19:36:02.304] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/PacketFlow
+[26Jul2024 19:36:02.315] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/chat/ChatType
+[26Jul2024 19:36:02.317] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/player/ChatVisiblity
+[26Jul2024 19:36:02.336] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/player/PlayerModelPart
+[26Jul2024 19:36:02.363] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/RenderShape
+[26Jul2024 19:36:02.367] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/BlockBehaviour$OffsetType
+[26Jul2024 19:36:02.370] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/kinetics/base/IRotate$SpeedLevel
+[26Jul2024 19:36:02.464] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/ingredient/transform/serializer/TransformReplaceSerializer
+[26Jul2024 19:36:02.467] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/ingredient/transform/serializer/TransformDamageSerializer
+[26Jul2024 19:36:02.469] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/ingredient/transform/serializer/TransformCustomSerializer
+[26Jul2024 19:36:02.471] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/ingredient/condition/serializer/ConditionDamagedSerializer
+[26Jul2024 19:36:02.473] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/ingredient/condition/serializer/ConditionAnyDamagedSerializer
+[26Jul2024 19:36:02.475] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/blamejared/crafttweaker/api/ingredient/condition/serializer/ConditionCustomSerializer
+[26Jul2024 19:36:03.029] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/KiwiModule$Subscriber$Bus
+[26Jul2024 19:36:03.065] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/recipe/ModuleLoadedCondition$Serializer
+[26Jul2024 19:36:03.070] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/recipe/TryParseCondition$Serializer
+[26Jul2024 19:36:03.078] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/recipe/AlternativesIngredientSerializer
+[26Jul2024 19:36:03.252] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/legacy/blue_skies/blocks/natural/BrewberryBushBlock$Type
+[26Jul2024 19:36:03.271] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/legacy/blue_skies/blocks/util/IFluidLoggable$FluidLogging
+[26Jul2024 19:36:03.274] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/legacy/blue_skies/blocks/natural/SkyDripstoneBlock$Section
+[26Jul2024 19:36:03.277] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/legacy/blue_skies/blocks/natural/SkyDripstoneBlock$Type
+[26Jul2024 19:36:03.284] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/legacy/blue_skies/blocks/natural/LargeLilyPadBlock$Corner
+[26Jul2024 19:36:03.305] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/legacy/blue_skies/blocks/natural/FruitLeavesBlock$Growth
+[26Jul2024 19:36:03.378] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/legacy/blue_skies/blocks/construction/SkyPressurePlateBlock$Sensitivity
+[26Jul2024 19:36:03.389] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/legacy/blue_skies/entities/util/SkiesDungeonType
+[26Jul2024 19:36:03.557] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/legacy/blue_skies/blocks/misc/TrophyBlock$Tier
+[26Jul2024 19:36:03.795] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mcwwindows/kikoz/objects/ConnectedWindow$ExtendablePart
+[26Jul2024 19:36:03.859] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mcwwindows/kikoz/objects/Parapet$Flower
+[26Jul2024 19:36:03.862] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mcwwindows/kikoz/util/WindowPart
+[26Jul2024 19:36:03.878] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mcwwindows/kikoz/objects/Blinds$GaragePart
+[26Jul2024 19:36:03.901] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mcwwindows/kikoz/objects/Curtain$TiedEnum
+[26Jul2024 19:36:03.910] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mcwwindows/kikoz/objects/Window$ExtendablePart
+[26Jul2024 19:36:03.980] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/dairymoose/modernlife/blocks/CatwalkBlock$CatwalkType
+[26Jul2024 19:36:04.123] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/dairymoose/modernlife/blocks/RampBlock$PartType
+[26Jul2024 19:36:04.142] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/dairymoose/modernlife/blocks/GrateBlock$FluidType
+[26Jul2024 19:36:04.250] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/dairymoose/modernlife/blocks/SofaBlock$SofaType
+[26Jul2024 19:36:04.299] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/dairymoose/modernlife/blocks/StreetLightBlock$PartType
+[26Jul2024 19:36:04.305] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/dairymoose/modernlife/blocks/SmallTableBlock$TableType
+[26Jul2024 19:36:04.308] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/dairymoose/modernlife/blocks/GlassCoffeeTableBlock$GlassTableType
+[26Jul2024 19:36:04.371] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/dairymoose/modernlife/blocks/DeluxeBedBlock$CornerType
+[26Jul2024 19:36:04.373] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/dairymoose/modernlife/blocks/PicnicTableBlock$BenchHalf
+[26Jul2024 19:36:04.376] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/dairymoose/modernlife/blocks/BathtubBlock$TubHalf
+[26Jul2024 19:36:04.586] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mcwdoors/kikoz/objects/GarageDoor$GaragePart
+[26Jul2024 19:36:04.600] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/generators/common/GeneratorsLang
+[26Jul2024 19:36:04.784] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/generators/common/block/attribute/AttributeStateFissionPortMode$FissionPortMode
+[26Jul2024 19:36:04.792] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/block/states/FluidLogType
+[26Jul2024 19:36:04.872] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/FireJetVariant
+[26Jul2024 19:36:04.888] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/HugeLilypadPiece
+[26Jul2024 19:36:04.891] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/NagastoneVariant
+[26Jul2024 19:36:04.894] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/Diagonals
+[26Jul2024 19:36:04.915] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/BlockLoggingEnum
+[26Jul2024 19:36:04.921] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/block/AbstractLightableBlock$Lighting
+[26Jul2024 19:36:04.936] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/TowerDeviceVariant
+[26Jul2024 19:36:04.998] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/BossVariant
+[26Jul2024 19:36:05.002] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/BossVariant$TrophyType
+[26Jul2024 19:36:05.013] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/BanisterShape
+[26Jul2024 19:36:05.024] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/HollowLogVariants$Horizontal
+[26Jul2024 19:36:05.031] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/HollowLogVariants$Climbable
+[26Jul2024 19:36:05.077] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/ellpeck/prettypipes/pipe/ConnectionType
+[26Jul2024 19:36:05.109] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/legacy/structure_gel/api/block/base/IStructureGel$Behavior
+[26Jul2024 19:36:05.114] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting earth/terrarium/chipped/block/ChippedWorkbench$WorkbenchModelType
+[26Jul2024 19:36:05.550] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mcwbridges/kikoz/objects/Bridge_Block$ConnectionStatus
+[26Jul2024 19:36:05.563] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mcwbridges/kikoz/objects/Bridge_Block_Rope$ConnectionStatus
+[26Jul2024 19:36:05.619] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mcwbridges/kikoz/objects/Bridge_Stairs$ConnectionStatus
+[26Jul2024 19:36:05.631] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mcwbridges/kikoz/objects/items/Bridge_Torch$LightState
+[26Jul2024 19:36:05.638] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting vectorwing/farmersdelight/common/block/state/CookingPotSupport
+[26Jul2024 19:36:06.349] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting xfacthd/framedblocks/common/data/property/SlopeType
+[26Jul2024 19:36:06.350] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting xfacthd/framedblocks/common/data/property/CornerType
+[26Jul2024 19:36:06.352] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting xfacthd/framedblocks/common/data/property/StairsType
+[26Jul2024 19:36:06.353] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting xfacthd/framedblocks/common/data/property/ChestState
+[26Jul2024 19:36:06.353] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting xfacthd/framedblocks/common/data/property/LatchType
+[26Jul2024 19:36:13.834] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/block/SoulType
+[26Jul2024 19:36:13.874] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/oblivioussp/spartanweaponry/block/ExtendedSkullBlock$Types
+[26Jul2024 19:36:13.900] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mcwroofs/kikoz/objects/roofs/RoofTopNew$RoofPart
+[26Jul2024 19:36:14.193] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/furniture/block/DeskBlock$Type
+[26Jul2024 19:36:14.196] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/furniture/block/DeskBlock$MaterialType
+[26Jul2024 19:36:14.255] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/furniture/block/SofaBlock$Type
+[26Jul2024 19:36:15.070] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/furniture/block/ParkBenchBlock$Type
+[26Jul2024 19:36:15.116] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/furniture/block/DivingBoardBlock$DivingBoardPart
+[26Jul2024 19:36:15.118] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/furniture/block/KitchenCounterBlock$Type
+[26Jul2024 19:36:15.126] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mcwfurnitures/kikoz/objects/TallFurniture$ConnectionStatus
+[26Jul2024 19:36:15.127] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mcwfurnitures/kikoz/objects/WideFurniture$ConnectionStatus
+[26Jul2024 19:36:15.129] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mcwfurnitures/kikoz/objects/Desk$ConnectionStatus
+[26Jul2024 19:36:15.628] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mcwlights/kikoz/objects/LightBaseTall$LightPart
+[26Jul2024 19:36:15.648] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/bobmowzie/mowziesmobs/server/block/GongBlock$GongPart
+[26Jul2024 19:36:15.650] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/bobmowzie/mowziesmobs/server/block/RakedSandBlock$RakedSandShape
+[26Jul2024 19:36:15.673] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedstorage/block/VerticalFacing
+[26Jul2024 19:36:15.756] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lothrazar/storagenetwork/api/EnumConnectType
+[26Jul2024 19:36:15.874] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting lilypuree/decorative_blocks/blocks/types/VanillaWoodTypes
+[26Jul2024 19:36:15.878] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting lilypuree/decorative_blocks/blocks/types/WoodDecorativeBlockTypes
+[26Jul2024 19:36:15.881] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting lilypuree/decorative_blocks/blocks/state/SupportFaceShape
+[26Jul2024 19:36:15.953] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/block/IBlock$EnumThird
+[26Jul2024 19:36:15.954] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/block/IBlock$EnumSide
+[26Jul2024 19:36:15.955] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/block/BlockEscalatorBase$EnumEscalatorOrientation
+[26Jul2024 19:36:15.959] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/block/BlockPSDAPGGlassEndBase$EnumPSDAPGGlassEndSide
+[26Jul2024 19:36:15.965] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/block/BlockPlatform$EnumDoorType
+[26Jul2024 19:36:15.968] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/block/BlockPSDTop$EnumPersistent
+[26Jul2024 19:36:16.039] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/data/TicketSystem$EnumTicketBarrierOpen
+[26Jul2024 19:36:16.048] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mtr/block/BlockTicketProcessor$EnumTicketProcessorLights
+[26Jul2024 19:36:16.112] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/cerbon/bosses_of_mass_destruction/block/custom/TripleBlockPart

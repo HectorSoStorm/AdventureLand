@@ -1,0 +1,83 @@
+[
+  {
+    "uuid": "742b7e89-2b5b-3473-a119-1ced7b43ae8a",
+    "displayName": {
+      "insertion": "_Storm10_",
+      "clickEvent": {
+        "action": "suggest_command",
+        "value": "/tell _Storm10_ "
+      },
+      "hoverEvent": {
+        "action": "show_entity",
+        "contents": {
+          "type": "minecraft:player",
+          "id": "742b7e89-2b5b-3473-a119-1ced7b43ae8a",
+          "name": {
+            "text": "_Storm10_"
+          }
+        }
+      },
+      "extra": [
+        {
+          "text": "_Storm10_"
+        }
+      ],
+      "text": ""
+    },
+    "animation": "null"
+  },
+  {
+    "uuid": "90b58537-b09c-37a4-a932-5f664d344593",
+    "displayName": {
+      "insertion": "ElPinchilin",
+      "clickEvent": {
+        "action": "suggest_command",
+        "value": "/tell ElPinchilin "
+      },
+      "hoverEvent": {
+        "action": "show_entity",
+        "contents": {
+          "type": "minecraft:player",
+          "id": "90b58537-b09c-37a4-a932-5f664d344593",
+          "name": {
+            "text": "ElPinchilin"
+          }
+        }
+      },
+      "extra": [
+        {
+          "text": "ElPinchilin"
+        }
+      ],
+      "text": ""
+    },
+    "animation": "null"
+  },
+  {
+    "uuid": "b6076fe0-f59c-4703-9fbe-5eb67dd5adcc",
+    "displayName": {
+      "insertion": "_Storm10_",
+      "clickEvent": {
+        "action": "suggest_command",
+        "value": "/tell _Storm10_ "
+      },
+      "hoverEvent": {
+        "action": "show_entity",
+        "contents": {
+          "type": "minecraft:player",
+          "id": "b6076fe0-f59c-4703-9fbe-5eb67dd5adcc",
+          "name": {
+            "text": "_Storm10_"
+          }
+        }
+      },
+      "extra": [
+        {
+          "text": "_Storm10_"
+        }
+      ],
+      "text": ""
+    },
+    "animation": "null"
+  }
+]
