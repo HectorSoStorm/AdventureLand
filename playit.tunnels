@@ -9,33 +9,33 @@
       "active": true,
       "alloc": {
         "data": {
-          "assigned_domain": "view-ali.gl.joinmc.link",
-          "assigned_srv": "view-ali.gl.joinmc.link",
+          "assigned_domain": "album-fri.gl.joinmc.link",
+          "assigned_srv": "album-fri.gl.joinmc.link",
           "assignment": {
             "type": "shared-ip"
           },
-          "id": "ded705e9-53cf-4a3e-9ba0-d7ddd6afa7cb",
-          "ip_hostname": "21.ip.gl.ply.gg",
+          "id": "14265e2a-a2fd-4a04-b389-298a0d0a45f9",
+          "ip_hostname": "22.ip.gl.ply.gg",
           "ip_type": "both",
-          "port_end": 30025,
-          "port_start": 30024,
+          "port_end": 13816,
+          "port_start": 13815,
           "region": "global",
-          "static_ip4": "147.185.221.21",
-          "tunnel_ip": "2602:fbaf:0:1::15"
+          "static_ip4": "147.185.221.22",
+          "tunnel_ip": "2602:fbaf:0:1::16"
         },
         "status": "allocated"
       },
-      "created_at": "2024-07-22T22:37:13.417643Z",
+      "created_at": "2024-08-21T01:58:57.649771Z",
       "disabled_reason": null,
       "domain": null,
       "expire_notice": null,
       "firewall_id": null,
-      "id": "e59d0908-0376-4837-a275-9487b53811ad",
+      "id": "1327d8bc-2315-4920-b6bc-36c5a7360e69",
       "name": "Minecraft Java",
       "origin": {
         "data": {
-          "agent_id": "705b4dee-1678-4db9-adc5-4a957919e5e6",
-          "agent_name": "AdventureLand",
+          "agent_id": "58293728-16b3-4320-8821-c0505ac6f398",
+          "agent_name": "from-key-2496",
           "local_ip": "127.0.0.1",
           "local_port": 25565
         },
